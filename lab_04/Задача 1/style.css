@@ -1,0 +1,38 @@
+body {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+    .col {
+      background-color: rgb(89, 89, 232);
+      border: 5px solid black;
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      margin: 10px;
+      width: 300px;
+    }
+  }
+
+  input {
+    border: 1px solid black;
+    padding-right: 20px;
+    padding: 3px;
+    padding-right: 20px;
+  }
+
+  .input-box {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #result {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+}

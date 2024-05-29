@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./js/index.js"></script>
+    <title>Lab 4.</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Варіант 1</h3>
+        <div class="col">
+            <div class="box">
+                <img src="./images/remove.svg" id="remove" alt="Remove text" style="width:40px;height:40px;" onclick="onRemove()">
+                <img src="./images/edit.svg" id="edit" alt="Edit text" style="width:40px;height:40px;" onclick="onEdit()">
+            </div>
+            <div class="box">
+                <textarea class="hidden" id="textArea" onfocusout="onFocusOut()" rows="8"></textarea>
+                <div class="result" id='result'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Itaque, corrupti, sequi pariatur exercitationem debitis quia tempore iure vero alias
+                    corporis sed voluptates eligendi repellendus earum optio eius harum. Culpa, atque.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

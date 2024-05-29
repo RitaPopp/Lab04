@@ -1,0 +1,44 @@
+body {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+    .col {
+      background-color:moccasin;
+      border: 5px solid black;
+      font-weight: bold;
+      padding: 10px;
+      margin: 10px;
+      width: 600px;
+      height: 400px;
+    }
+  }
+
+  textarea {
+    width:100%;
+  }
+
+  .box {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #result {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .selected {
+    background-color:steelblue;
+    border-radius: 5px;
+  }
+
+  .hidden {
+    display: none;
+  }
+}

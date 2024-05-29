@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+    <title>Lab 4.</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Варіант 1</h3>
+        <div class="col">
+        <div class="input-box">
+            <label for="coinInput">What is Bitcoin price today?</label>
+            <input type="number" id="coinInput" placeholder="68447.90" onchange="calculateDollarToCoint()">
+        </div>
+        <div class="input-box">
+            <label for="moneyInput">How much $ do you have?</label>
+            <input type="number" id="moneyInput" placeholder="30" onchange="calculateDollarToCoint()">
+        </div>
+        <div id="result" />
+    </div>
+    </div>
+</body>
+</html>
